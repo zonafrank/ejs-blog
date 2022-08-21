@@ -78,7 +78,7 @@ app.post("/compose", async (request, response) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, function () {
-  console.log("Server started on port ${PORT}");
+  console.log(`Server started on port ${PORT}`);
 });
 
 process.on("SIGINT", function () {
